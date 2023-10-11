@@ -19,6 +19,8 @@ We plan to use systems such as CUDA and OpenMP to see the effect of using multip
 
 ## Results and Analysis
 
+We used Calgary Corpus, the same collection of files that the original LZO algorithm is tested with, to test our parallel algoirthm.
+
 ### Using 8 Threads
 
 | File Name | Original Size (in bytes) | Single Threaded LZO Compression Time (in seconds) | Multi Threaded LZO Compression Time (in seconds) |
